@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-const FILE: any = readFileSync("./src/Fernando.sublime-color-scheme");
+const FILE: any = readFileSync("./src/Dark_Crayon.sublime-color-scheme");
 const SCHEME: any = JSON.parse(FILE.toString());
 
 interface ObjectKey<Type>
@@ -58,11 +58,11 @@ interface ColorScheme
 };
 
 const BUILD_COLOR_SCHEME: ColorScheme = {
-	name: "Fernando",
+	name: "Dark Crayon",
 	author: "Fernando",
 	variables: BUILD_VARIABLE,
 	globals: GLOBALS,
 	rules: BUILD_RULE
 };
 
-writeFileSync("./dist/Fernando.sublime-color-scheme", JSON.stringify(BUILD_COLOR_SCHEME, null, "\t"), "utf8");
+writeFileSync("./dist/Dark_Crayon.sublime-color-scheme", JSON.stringify(BUILD_COLOR_SCHEME, null, "\t"), "utf8");
