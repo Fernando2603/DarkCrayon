@@ -1,0 +1,33 @@
+{
+  "name": "fernando-sublime",
+  "version": "1.0.0",
+  "description": "sublime text color scheme",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando2603/fernando-sublime.git"
+  },
+  "keywords": [
+    "sublime",
+    "sublime-text",
+    "sublime-text-3",
+    "sublime-text-4",
+    "sublime-color-scheme",
+    "color-scheme"
+  ],
+  "author": "Fernando2603",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Fernando2603/fernando-sublime/issues"
+  },
+  "homepage": "https://github.com/Fernando2603/fernando-sublime#readme",
+  "dependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  }
+}
