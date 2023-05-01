@@ -7,7 +7,7 @@
 - fix Sass/SCSS var(--variable) color
 - fix Sass/SCSS css build-in property color (inherit, linear, center, etc)
 
-## What changed in version 0.1.1?
+## What changed in version 0.1.2?
 - fix Markdown inline link and image punctuation/bracket not highlighted properly
 - changes CSS path separator "/" color to match string color instead of white
 
